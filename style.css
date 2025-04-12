@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    margin-top: 5vw;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px; 
+}
+
+a {
+    margin-top: 2vw;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(
+        to right,   
+        rgba(255,0,0,1),
+        rgba(255,0,180,1),
+        rgba(0,100,200,1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: background-size 400ms;
+}
+
+a:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+a:visited {
+    background: none;
+}
+
+.card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card :hover {
+    transform: scale(1.05);
+}
+
+#bdo {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+#zed {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+#rive {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(209, 209, 209);
+    margin-top: 25px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+#img-box {
+    height: 200px;
+}
+
+#img-box :hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .card {
+      max-width: 100%;
+    }
+  
+    .img-box {
+      gap: 20px;
+      padding: 0 10px;
+    }
+  }
