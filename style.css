@@ -75,23 +75,59 @@ a:hover {
     transform: scale(1.5);
 }
 
-#bdo {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+.escuro {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(138, 138, 138);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#zed {
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+.escuro:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
 }
 
-#rive {
+.dark-mode {
+    background-color: rgb(29, 29, 29);
+    color:white;
+}
+
+body.dark-mode a {
+    color: white;
+    background-color: rgba(57, 35, 155, 0.26);
+}
+
+body.dark-mode h1 {
+    color: white;
+    background-color: rgba(1, 1, 78, 0.247);
+}
+
+body.dark-mode p {
+    color: white;
+    background-color: rgba(1, 1, 78, 0.288);
+    border-radius: 10px;
+}
+
+body.dark-mode .mais {
+    background-color: rgba(58, 45, 114, 0.288);
+    color: white;
+}
+
+body.dark-mode .bt-imgzed {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+body.dark-mode .bt-imgrive {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+body.dark-mode .bt-imgbdo {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.imgs {
     border-radius: 10px;
     height: 100%;
     width: 100%;
