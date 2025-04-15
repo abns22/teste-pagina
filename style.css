@@ -9,6 +9,26 @@
     gap: 30px; 
 }
 
+footer {
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    font-size: 20px;
+}
+
+footer img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
 .mais {
     display: flex;
     margin-top: 1.5vw;
@@ -24,12 +44,27 @@
 
 }
 
-.bt-img {
+.bt-imgbdo {
     font-size: 20px;
-    border: none;
+    border: white;
     border-radius: 3px;
     margin-top: 10px;
 }
+
+.bt-imgzed {
+    font-size: 20px;
+    border: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.bt-imgrive {
+    font-size: 20px;
+    border: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
 
 .texto {
     display: none;
@@ -39,7 +74,7 @@
     display: block;
 }
 
-a {
+header a {
     margin-top: 2vw;
     color: rgb(0, 0, 0);
     box-shadow: 5px 5px 5px rgb(197, 197, 197);
@@ -96,7 +131,7 @@ a:hover {
 
 body.dark-mode a {
     color: white;
-    background-color: rgba(57, 35, 155, 0.26);
+    background-color: rgb(29, 29, 29);
 }
 
 body.dark-mode h1 {
@@ -116,15 +151,15 @@ body.dark-mode .mais {
 }
 
 body.dark-mode .bt-imgzed {
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgb(29, 29, 29);
 }
 
 body.dark-mode .bt-imgrive {
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgb(29, 29, 29);
 }
 
 body.dark-mode .bt-imgbdo {
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgb(29, 29, 29);
 }
 
 .imgs {
@@ -135,7 +170,7 @@ body.dark-mode .bt-imgbdo {
     box-shadow: 5px 5px 5px rgb(129, 129, 129);
 }
 
-h1 {
+header h1 {
     color: rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(209, 209, 209);
