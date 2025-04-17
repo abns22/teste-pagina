@@ -41,6 +41,7 @@ footer img {
 .mais:hover {
     transform: scale(1.2);
     box-shadow: 3px 3px 3px black;
+    transition: all 0.3s ease;
 
 }
 
@@ -97,6 +98,7 @@ header a {
 a:hover {
     background-size: 0 3px, 100% 3px;
     transition: scale(1.5);
+    transition: all 0.3s ease;
 }
 
 
@@ -108,6 +110,7 @@ a:hover {
 
 .img:hover {
     transform: scale(1.5);
+    transition: all 0.3s ease;
 }
 
 .escuro {
@@ -122,6 +125,7 @@ a:hover {
     transform: scale(1.1);
     background-color: black;
     color: white;
+    transition: all 0.3s ease;
 }
 
 .dark-mode {
@@ -189,6 +193,7 @@ p {
 
 #img-box :hover {
     transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
